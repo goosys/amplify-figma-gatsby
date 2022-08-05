@@ -1,13 +1,13 @@
 import * as React from "react"
 import DefaultLayout from "../components/layouts/DefaultLayout"
-import HeroLayout1 from "../ui-components/HeroLayout1"
-import MarketingPricing from "../ui-components/MarketingPricing"
+import ContactUs from "../ui-components/ContactUs"
 
 const IndexPage = () => {
   return (
     <DefaultLayout>
-      <HeroLayout1/>
-      <MarketingPricing/>
+      <div style={{ margin: `0 auto`, maxWidth: `800px` }}>
+        <ContactUs/>
+      </div>
     </DefaultLayout>
   )
 }
